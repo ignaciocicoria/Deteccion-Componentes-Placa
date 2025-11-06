@@ -55,6 +55,24 @@ Deteccion-Componentes-Placa/
 ├── requirements.txt                    # Librerías necesarias para ejecutar el proyecto
 └── README.md                           # Documentación del ejercicio
 
+# Configuración y ejecución del entorno virtual
+
+# 1️⃣ Crear el entorno virtual
+python -m venv venv
+
+# 2️⃣ Activar el entorno
+# En Windows
+venv\Scripts\activate
+# En Linux o macOS
+source venv/bin/activate
+
+# 3️⃣ Instalar las dependencias necesarias
+pip install -r requirements.txt
+
+# 4️⃣ Ejecutar el script principal desde la raíz del proyecto
+python src/deteccion_componentes.py
+
+
 ## Librerías utilizadas
 - `OpenCV (cv2)` – procesamiento de imágenes, filtros y morfología  
 - `NumPy` – manipulación de matrices y operaciones lógicas  
