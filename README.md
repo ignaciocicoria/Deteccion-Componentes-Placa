@@ -39,6 +39,21 @@ A través del procesamiento digital de imágenes, se implementan técnicas de fi
      - 🟨 Chip  
 
 ---
+## Estructura del repositorio
+
+Deteccion-Componentes-Placa/
+│
+├── deteccion_componentes.py        # Código principal del ejercicio
+│
+├── input/
+│   └── placa.png                       # Imagen original de la placa PCB
+│
+├── output/
+│   ├── componentes.png                 # Componentes detectados
+│   └── clasificacion.png               # Resultado final con bounding boxes
+│
+├── requirements.txt                    # Librerías necesarias para ejecutar el proyecto
+└── README.md                           # Documentación del ejercicio
 
 ## Librerías utilizadas
 - `OpenCV (cv2)` – procesamiento de imágenes, filtros y morfología  
